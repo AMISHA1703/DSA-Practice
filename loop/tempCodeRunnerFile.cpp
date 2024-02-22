@@ -1,0 +1,1 @@
+array[i]=2*array[i];
