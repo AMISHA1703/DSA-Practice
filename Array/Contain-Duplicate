@@ -1,0 +1,40 @@
+// Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+
+1. Brute force T.C : O(n^2) and SC: O(1)
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+  bool containsDuplicate(vector<int>& nums) {
+        if(nums.size()==1 ){
+            return false;
+        }
+        else {
+            for(long  i=1;i<=nums.size()-1;i++)
+        {
+            for( long long j=i+1;j<=nums.size();j++)
+            {
+                if(nums[i]==nums[j]){
+                    return true;
+                }
+            }
+        }
+    }
+
+     return false;
+        
+    }
+
+int main()
+{ 
+vector <int> nums;
+for(int i=1;i<=nums.size();i++)
+{
+   cin>> nums[i];
+}
+  bool result=containsDuplicate( nums);
+
+  return 0;
+}
