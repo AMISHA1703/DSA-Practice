@@ -38,3 +38,9 @@ for(int i=1;i<=nums.size();i++)
 
   return 0;
 }
+
+
+
+2.    using sorting in O(nlogn) and SC: O(1)
+
+  
