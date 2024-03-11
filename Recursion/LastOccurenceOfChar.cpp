@@ -22,14 +22,14 @@ if(str[i]==ch){
 }
 int main(){
   string str;
-  cout<<"enter the string<<endl;
+  cout<<"enter the string"<<endl;
   cin>>str;
   char ch;
-  cout<<"enter the char which you want to search";
+  cout<<"enter the char which you want to search"<<endl;
   cin>>ch;
   int ans=-1;
   int i=0;
   OccurrenceFromLtoR(str,ch,i,ans);
-  cout<< "last occurence of string "str " is  at index : "<<ans<<endl;
+  cout<< "last occurence of string " <<str<< " is  at index : "<<ans<<endl;
   return 0;
 }
