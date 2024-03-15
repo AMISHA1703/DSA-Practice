@@ -41,6 +41,7 @@ for(int i=1;i<=nums.size();i++)
 
 
 
-2.    using sorting in O(nlogn) and SC: O(1)
+2.    using sorting in O(nlogn) and SC: O(1) -----
+
 
   
